@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47631F181E1328AC00674386 /* LightControlClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47631F141E131F2600674386 /* LightControlClient.swift */; };
 		OBJ_151 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Request.swift */; };
 		OBJ_152 /* RequestDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* RequestDispatcher.swift */; };
 		OBJ_153 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* RequestHandler.swift */; };
@@ -557,6 +558,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47631F141E131F2600674386 /* LightControlClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightControlClient.swift; sourceTree = "<group>"; };
 		OBJ_10 /* RequestDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDispatcher.swift; sourceTree = "<group>"; };
 		OBJ_101 /* BodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyParser.swift; sourceTree = "<group>"; };
 		OBJ_102 /* BodyParserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyParserProtocol.swift; sourceTree = "<group>"; };
@@ -882,6 +884,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_122 /* AlexaSkillHandler.swift */,
+				47631F141E131F2600674386 /* LightControlClient.swift */,
 			);
 			name = AlexaSkill;
 			path = Sources/AlexaSkill;
@@ -1032,7 +1035,7 @@
 			path = FastCGI;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -1041,7 +1044,6 @@
 				OBJ_130 /* Shim */,
 				OBJ_131 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_54 /* HTTP */ = {
@@ -1467,7 +1469,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_131 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1670,6 +1672,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_330 /* AlexaSkillHandler.swift in Sources */,
+				47631F181E1328AC00674386 /* LightControlClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
