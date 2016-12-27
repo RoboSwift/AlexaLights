@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Dispatch
 
 fileprivate let lightControlHost = "miqu-swiftpi.ydns.eu"
 fileprivate let lightControlPort = 9090
@@ -19,6 +20,7 @@ class LightControlClient {
         request.httpMethod = "POST"
         let task = buildTask(with: request, completion: completion)
         task.resume()
+        dispatchMain()
     }
     
     func requestOff(completion: @escaping LightControlResponse) {
@@ -26,6 +28,7 @@ class LightControlClient {
         request.httpMethod = "POST"
         let task = buildTask(with: request, completion: completion)
         task.resume()
+        dispatchMain()
     }
     
     let session: URLSession = URLSession(configuration: .default)
