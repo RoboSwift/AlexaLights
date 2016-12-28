@@ -66,3 +66,5 @@ fastlane/test_output
 
 SwiftPi/main
 SwiftPi/Packages
+SwiftPi-Alexa/main
+SwiftPi-Alexa/Packages
